@@ -12,7 +12,7 @@ var app = new Vue({
            
             this.todo.push({
                 id: this.nextTodoId++,
-                title : "Learn " + this.task
+                title :this.task
             })
             this.task= ''
         }
